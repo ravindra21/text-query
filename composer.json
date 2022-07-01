@@ -1,0 +1,23 @@
+{
+    "name": "ravindra21/text-query",
+    "description": "parsing string query 'foo:bar baz:boo' to [['foo', '=', 'bar'], ['baz', '=', 'boo']] that can be used for search operations",
+    "autoload": {
+        "psr-4": {
+            "Ravindra21\\TextQuery\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ravindra21",
+            "email": "astina908@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ravindra21\\TextQuery\\Providers"
+            ]
+        }
+    }
+}
