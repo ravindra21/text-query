@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ravindra21\\TextQuery\\Providers"
+                "Ravindra21\\TextQuery\\Providers\\TextQueryProvider"
             ]
         }
     }
