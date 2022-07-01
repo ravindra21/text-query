@@ -1,6 +1,25 @@
 ﻿# text-query
 parsing string query 'foo:bar baz:boo' to [['foo', '=', 'bar'], ['baz', '=', 'boo']] that can be used for search operations
 
+### install
+add in composer.json
+```
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/ravindra21/text-query"
+    }
+]
+```
+install
+```
+composer require ravindra21/text-query
+```
+publish config/text_query.php
+```
+php artisan vendor:publish --tag=text-query
+```
+
 ### encode
 ```
 TextQuery::encode(['foo' => 'bar', 'baz' => 'boo']);
