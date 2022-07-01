@@ -19,7 +19,10 @@ publish config/text_query.php
 ```
 php artisan vendor:publish --tag=text-query
 ```
-
+### export
+```
+use Ravindra21\TextQuery\TextQuery
+```
 ### encode
 ```
 TextQuery::encode(['foo' => 'bar', 'baz' => 'boo']);
